@@ -37,6 +37,10 @@
 
 *See also*:
 
+<<<<<<< HEAD
+=======
+[discrete]
+>>>>>>> c83a0b5 (GitHub-361: Added index for ELB (#363))
 [[elb]]
 ==== image:images/yes.png[yes] Elastic Load Balancing (noun)
 *Description*: _Elastic Load Balancing (ELB)_ automatically distributes incoming traffic across multiple targets, such as Amazon Elastic Container Service (ECS) instances, and IP addresses in one or more Availability Zones (AZs). ELB supports the following load balancers:
@@ -50,7 +54,10 @@ Do not abbreviate any of the previously listed load balancer terms.
 
 *Use it*: yes
 
+<<<<<<< HEAD
 [.vale-ignore]
+=======
+>>>>>>> c83a0b5 (GitHub-361: Added index for ELB (#363))
 *Incorrect forms*: Elastic Load Balancer
 
 *See also*:
