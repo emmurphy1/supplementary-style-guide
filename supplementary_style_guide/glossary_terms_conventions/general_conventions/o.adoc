@@ -9,6 +9,7 @@
 
 *See also*: xref:open-ran[Open RAN], xref:openran[OpenRAN]
 
+// OCS: General; kept as is
 [[object-bucket]]
 ==== image:images/yes.png[yes] object bucket (noun)
 *Description*: A container to store objects.
@@ -20,6 +21,7 @@
 
 *See also*:
 
+// OCS: General; kept as is
 [[object-bucket-claim]]
 ==== image:images/yes.png[yes] object bucket claim (noun)
 *Description*: Creates a new bucket and an application account in Multicloud Object Gateway or RADOS Gateway (RGW) with permissions to the bucket, including a new access key and secret access key. You can use "object bucket claim" to request an AWS S3 compatible bucket for the workloads.
@@ -31,6 +33,7 @@
 
 *See also*:
 
+// RHDS: General; kept as is
 [[object-class]]
 ==== image:images/yes.png[yes] object class (noun)
 *Description*: _Object classes_ in an entry that controls attributes that are either optional or required. Write as two words when you refer to object classes in general.
@@ -42,9 +45,10 @@
 
 *See also*: xref:objectclass[objectClass]
 
+// Ceph: Added "In Red Hat Ceph Storage, Object Storage Device is"
 [[object-storage-device]]
 ==== image:images/yes.png[yes] Object Storage Device (noun)
-*Description*: In Red{nbsp}Hat Ceph Storage, _Object Storage Device_ is a storage drive in a Ceph Storage Cluster. Do not confuse "Object Storage Device" with the "Ceph OSD", which is the `ceph-osd` daemon and the underlying data disk.
+*Description*: In Red Hat Ceph Storage, _Object Storage Device_ is a storage drive in a Ceph Storage Cluster. Do not confuse "Object Storage Device" with the "Ceph OSD", which is the `ceph-osd` daemon and the underlying data disk.
 
 *Use it*: yes
 
@@ -53,9 +57,10 @@
 
 *See also*: xref:ceph-osd[ceph-osd], xref:osd[OSD], xref:osd-daemon[OSD daemon]
 
+// Ceph: Added "In Red Hat Ceph Storage, Object Store is"
 [[object-store]]
 ==== image:images/yes.png[yes] Object Store (noun)
-*Description*: In Red{nbsp}Hat Ceph Storage, _Object Store_ is a core component of the Ceph Storage Cluster. Also referred as "RADOS".
+*Description*: In Red Hat Ceph Storage, _Object Store_ is a core component of the Ceph Storage Cluster. Also referred as "RADOS".
 
 *Use it*: yes
 
@@ -64,6 +69,7 @@
 
 *See also*: xref:rados[RADOS]
 
+// RHDS: General; kept as is
 [[objectclass]]
 ==== image:images/yes.png[yes] objectClass (noun)
 *Description*: The `objectClass` attribute in an LDAP entry stores the object classes of this entry.
@@ -119,6 +125,7 @@
 
 *See also*:
 
+// OCP: General; kept as is
 [[okd]]
 ==== image:images/yes.png[yes] OKD (noun)
 *Description*: The name of the open source, upstream project of OpenShift Container Platform (previously known as OpenShift Origin before August 3, 2018). _OKD_ is a distribution of Kubernetes optimized for continuous application development and multitenant deployment. Officially, the initialism does not stand for anything.
@@ -154,7 +161,7 @@
 
 [[on-premise]]
 ==== image:images/caution.png[with caution] on-premise (adjective)
-*Description*: Substitute "on-site" or "in-house" for "on-premise" whenever possible. Although "on-premises" is grammatically correct, "on-premise" is preferred by the industry and the Red{nbsp}Hat Cloud business unit. Capitalize "on-premise" only when using it as part of the name of the Red{nbsp}Hat product "Red{nbsp}Hat Storage Server for On-premise".
+*Description*: Substitute "on-site" or "in-house" for "on-premise" whenever possible. Although "on-premises" is grammatically correct, "on-premise" is preferred by the industry and the Red Hat Cloud business unit. Capitalize "on-premise" only when using it as part of the name of the Red Hat product "Red Hat Storage Server for On-premise".
 
 *Use it*: with caution
 
@@ -241,6 +248,7 @@
 
 *See also*: xref:o-ran[O-RAN], xref:open-ran[Open RAN]
 
+// OCP: General; kept as is;
 [[openshift]]
 ==== image:images/caution.png[with caution] OpenShift (noun)
 *Description*: The "OpenShift" product name should be paired with its product distribution or variant name whenever possible. For example:
@@ -265,9 +273,10 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 
 *See also*: xref:okd[OKD]
 
+// OCP: Added "In Red Hat OpenShift,"
 [[openshift-cli]]
 ==== image:images/yes.png[yes] OpenShift CLI (noun)
-*Description*: In Red{nbsp}Hat OpenShift, the `oc` tool is the command-line interface of OpenShift Container Platform 3 and 4.
+*Description*: In Red Hat OpenShift, the `oc` tool is the command-line interface of OpenShift Container Platform 3 and 4.
 
 *Use it*: yes
 
@@ -276,17 +285,19 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 
 *See also*:
 
+// OCP: Added "In Red Hat OpenShift, the OpenShift Container Registry is" and removed OCP from later in the sentence
 [[openshift-container-registry]]
 ==== image:images/yes.png[yes] OpenShift Container Registry (noun)
-*Description*: In Red{nbsp}Hat OpenShift, the _OpenShift Container Registry_ is the integrated container registry that is deployed as part of an installation. This container registry adds the ability to easily provision new image repositories. With OpenShift Container Registry users can automatically have a place for their builds to push the resulting images. OpenShift Container Platform has an installation option you can use to have the OpenShift Container Registry deployed, but with none of the other build options enabled.
+*Description*: In Red Hat OpenShift, the _OpenShift Container Registry_ is the integrated container registry that is deployed as part of an installation. This container registry adds the ability to easily provision new image repositories. With OpenShift Container Registry users can automatically have a place for their builds to push the resulting images. OpenShift Container Platform has an installation option you can use to have the OpenShift Container Registry deployed, but with none of the other build options enabled.
 
 *Use it*: yes
 
 [.vale-ignore]
 *Incorrect forms*:
 
-*See also*: xref:container-registry[container registry], xref:red-hat-container-catalog[Red{nbsp}Hat Container Catalog]
+*See also*: xref:container-registry[container registry], xref:red-hat-container-catalog[Red Hat Container Catalog]
 
+// OCP: General; kept as is
 // TODO: This term is outdated anyway and should be removed in a future update
 [[openshift-master]]
 ==== image:images/yes.png[yes] OpenShift master (noun)
@@ -299,6 +310,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 
 *See also*: xref:endpoint[endpoint], xref:api-server[API server], xref:scheduler[scheduler]
 
+// OCP: General; kept as is
 [[openshift-origin]]
 ==== image:images/no.png[no] OpenShift Origin (noun)
 *Description*: The previous name of the open source, upstream project of OpenShift Container Platform. This project has been renamed "OKD".
@@ -310,6 +322,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 
 *See also*: xref:okd[OKD]
 
+// AMQ: General; kept as is
 [[openwire]]
 ==== image:images/yes.png[yes] OpenWire (noun)
 *Description*: A cross-language wire protocol that enables JMS clients to communicate with AMQ Broker (http://activemq.apache.org/openwire.html).
@@ -370,7 +383,7 @@ The full name of an "Operator" must be a proper noun, with each word initially
 capitalized. If it includes a product name, defer to the product's capitalization
 style guidelines. For example:
 
-- Red{nbsp}Hat OpenShift Logging Operator
+- Red Hat OpenShift Logging Operator
 - Prometheus Operator
 - etcd Operator
 - Node Tuning Operator
@@ -390,7 +403,7 @@ NOTE: When referring generally to other Kubernetes components, such as pods, nod
 
 [[operator-framework]]
 ==== image:images/yes.png[yes] Operator Framework (noun)
-*Description*: In Red{nbsp}Hat OpenShift, _Operator Framework_ is a family of tools and capabilities to deliver on the customer experience. Operator Framework includes open source tools such as Operator SDK, Operator Lifecycle Manager (OLM), Operator Registry, and OperatorHub.
+*Description*: In Red Hat OpenShift, _Operator Framework_ is a family of tools and capabilities to deliver on the customer experience. Operator Framework includes open source tools such as Operator SDK, Operator Lifecycle Manager (OLM), Operator Registry, and OperatorHub.
 
 *Use it*: yes
 
@@ -401,7 +414,7 @@ NOTE: When referring generally to other Kubernetes components, such as pods, nod
 
 [[operator-lifecycle-manager]]
 ==== image:images/yes.png[yes] Operator Lifecycle Manager (noun)
-*Description*: In Red{nbsp}Hat OpenShift, _Operator Lifecycle Manager_ (OLM) helps users install, update, and manage the lifecycle of Kubernetes native applications (Operators) and their associated services running across their OpenShift Container Platform clusters. OLM is part of the Operator Framework, which is an open source toolkit designed to manage Operators in an effective, automated, and scalable way.
+*Description*: In Red Hat OpenShift, _Operator Lifecycle Manager_ (OLM) helps users install, update, and manage the lifecycle of Kubernetes native applications (Operators) and their associated services running across their OpenShift Container Platform clusters. OLM is part of the Operator Framework, which is an open source toolkit designed to manage Operators in an effective, automated, and scalable way.
 
 *Use it*: yes
 
@@ -412,7 +425,7 @@ NOTE: When referring generally to other Kubernetes components, such as pods, nod
 
 [[operator-hub]]
 ==== image:images/yes.png[yes] OperatorHub (noun)
-*Description*: In Red{nbsp}Hat OpenShift,  _OperatorHub_ is a central location where you can find a wide array of useful Operators to install.
+*Description*: In Red Hat OpenShift,  _OperatorHub_ is a central location where you can find a wide array of useful Operators to install.
 
 *Use it*: yes
 
@@ -434,7 +447,7 @@ NOTE: When referring generally to other Kubernetes components, such as pods, nod
 
 [[opt-in]]
 ==== image:images/yes.png[yes] opt in (verb)
-*Description*: For Amazon Web Services (AWS), _opt in_ refers to manually selecting AWS opt-in Regions, which are usually locations that can offer higher security requirements than default commercial AWS Regions. A Red{nbsp}Hat customer who wants to deploy an OpenShift Container Platform cluster in an AWS Region or AWS Local Zone location must opt in to the location by configuring their AWS management account. For the gerund form of the phrase, use "opting in".
+*Description*: For Amazon Web Services (AWS), _opt in_ refers to manually selecting AWS opt-in Regions, which are usually locations that can offer higher security requirements than default commercial AWS Regions. A Red Hat customer who wants to deploy an OpenShift Container Platform cluster in an AWS Region or AWS Local Zone location must opt in to the location by configuring their AWS management account. For the gerund form of the phrase, use "opting in".
 
 *Use it*: yes
 
@@ -444,9 +457,9 @@ NOTE: When referring generally to other Kubernetes components, such as pods, nod
 
 [[organization-administrator]]
 ==== image:images/yes.png[yes] Organization Administrator (noun)
-*Description*: From https://access.redhat.com/articles/1757953[Roles and Permissions for Red{nbsp}Hat Customer Portal]: Organization Administrator: This is the highest permission level for a Red{nbsp}Hat account with full access to content and features. This is the only role that can manage users and control their access and permissions on an account.
+*Description*: From https://access.redhat.com/articles/1757953[Roles and Permissions for Red Hat Customer Portal]: Organization Administrator: This is the highest permission level for a Red Hat account with full access to content and features. This is the only role that can manage users and control their access and permissions on an account.
 
-Use Organization Administrator as a proper noun when referring to the Organization Administrator role for a Red{nbsp}Hat corporate account.
+Use Organization Administrator as a proper noun when referring to the Organization Administrator role for a Red Hat corporate account.
 
 
 *Use it*: yes
@@ -456,9 +469,10 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 
 *See also*:
 
+// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[organizational-unit]]
 ==== image:images/yes.png[yes] organizational unit (noun)
-*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, an _organizational unit_ is a directory comprising repositories that store business assets.
+*Description*: In Red Hat Decision Manager and Red Hat Process Automation Manager, an _organizational unit_ is a directory comprising repositories that store business assets.
 
 *Use it*: yes
 
@@ -467,9 +481,10 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 
 *See also*:
 
+// Ceph: Added "In Red Hat Ceph Storage, OSD is"
 [[osd]]
 ==== image:images/yes.png[yes] OSD (noun)
-*Description*: In Red{nbsp}Hat Ceph Storage, OSD is the `ceph-osd` daemon and the underlying data disk.
+*Description*: In Red Hat Ceph Storage, OSD is the `ceph-osd` daemon and the underlying data disk.
 
 *Use it*: yes
 
@@ -478,9 +493,10 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 
 *See also*: xref:ceph-osd[ceph-osd], xref:object-storage-device[Object Storage Device], xref:osd-daemon[OSD daemon]
 
+// Ceph: Added "In Red Hat Ceph Storage, OSD Daemon is"
 [[osd-daemon]]
 ==== image:images/yes.png[yes] OSD Daemon (noun)
-*Description*: In Red{nbsp}Hat Ceph Storage, "OSD Daemon" is another name of the `ceph-osd` daemon.
+*Description*: In Red Hat Ceph Storage, "OSD Daemon" is another name of the `ceph-osd` daemon.
 
 *Use it*: yes
 
@@ -489,6 +505,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 
 *See also*: xref:ceph-osd[ceph-osd], xref:osd[OSD], xref:object-storage-device[Object Storage Device]
 
+// RHEL: General; kept as is
 [[ostree]]
 ==== image:images/yes.png[yes] OSTree (noun)
 *Description*: A tool used for managing Linux-based operating system versions. The _OSTree_ tree view is similar to Git and is based on similar concepts.
@@ -511,9 +528,10 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 
 *See also*:
 
+// OpenStack: Added "In Red Hat OpenStack Platform (RHOSP),"
 [[overcloud]]
 ==== image:images/yes.png[yes] overcloud (noun)
-*Description*: In Red{nbsp}Hat OpenStack Platform (RHOSP), the _overcloud_ is the resulting RHOSP environment that is created by using the undercloud. Write in lowercase.
+*Description*: In Red Hat OpenStack Platform (RHOSP), the _overcloud_ is the resulting RHOSP environment that is created by using the undercloud. Write in lowercase.
 
 *Use it*: yes
 
