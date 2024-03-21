@@ -350,7 +350,7 @@ There is no functional difference between the first server that was installed an
 
 [[inference-engine]]
 ==== image:images/yes.png[yes] inference engine (noun)
-*Description*: In Red Hat Decision Manager and Red Hat Process Automation Manager, the _inference engine_ is a part of the Red Hat Decision Manager engine, which matches production facts and data to rules. It is often called the brain of a production rules system because it is able to scale to a large number of rules and facts. It makes inferences based on its existing knowledge and performs the actions based on what it infers from the information.
+*Description*: In Red Hat Process Automation Manager and Red Hat Decision Manager, the _inference engine_ is a part of the Red Hat Decision Manager engine, which matches production facts and data to rules. It is often called the brain of a production rules system because it is able to scale to a large number of rules and facts. It makes inferences based on its existing knowledge and performs the actions based on what it infers from the information.
 
 *Use it*: yes
 
